@@ -31,6 +31,14 @@ namespace Donguler
                 j++;
             }
 
+            j = 0;
+            do
+            {
+                Console.WriteLine("while" + j + " " + kurslar[j]);
+                j++;
+
+            } while (j<kurslar.Length);
+
             //Console.WriteLine("Hello World!");
         }
     }
