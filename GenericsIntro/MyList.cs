@@ -27,6 +27,6 @@ namespace GenericsIntro
 
         public int MyProperty { get; set; }
         public int Length { get { return items.Length; } }
-        public T[] Items { get { return items; } }
+        public T[] Items => items;
     }
 }
