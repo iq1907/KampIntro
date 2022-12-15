@@ -8,10 +8,17 @@ namespace OOP2
     {
         public void Ekle(Musteri musteri)
         {
+
+            Console.WriteLine();
             //if (musteri.)
             //{
 
             //}
+        }
+
+        public void EkleG(GercekMusteri gercekMusteri)
+        {
+            Console.WriteLine("gercek eklendi " + gercekMusteri.Adi);
         }
     }
 }

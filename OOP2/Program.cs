@@ -26,6 +26,8 @@ namespace OOP2
             musteriManager.Ekle(musteri3);
             musteriManager.Ekle(musteri4);
 
+            //musteriManager.EkleG(musteri1);
+
 
 
             Console.WriteLine("Hello World!");
